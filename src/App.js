@@ -12,6 +12,7 @@ function App() {
     <div>
       <Heder></Heder>
       <Tiap1></Tiap1>
+      <Tiap2></Tiap2>
     </div>
   );
   

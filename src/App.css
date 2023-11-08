@@ -57,14 +57,17 @@
 }
 
 .lef-bg{
-  width: 384px;
+  width: 450px;
+  height: 960px;
   background: #415167;
-  height: 894px;
+  z-index: -1;
+  position: absolute;
 }
 
 .img-CC{
-  width: 240px;
-  height: 256px;
+  width: 280px;
+  height: 296px;
+  background-color: #EDF0F5;
 }
 
 .p-CC{
@@ -150,4 +153,30 @@
   color: #151D28;
   font-size: 16px;
   text-align: center;
+}
+
+.coffecard{
+  width: 600px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.tiap2{
+  padding-left: 200px;
+  padding-top: 90px;
+}
+
+.p-tiap2{
+  color: #415167;
+  font-size: 20px;
+  margin-left: 450px;
+  height: 20px;
+}
+
+.h2-tiap2{
+  color: #415167;
+  font-size: 30px;
+  margin-left: 410px;
+  margin-bottom: 70px;
+  height: 30px;
 }
