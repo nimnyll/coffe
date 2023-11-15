@@ -15,8 +15,12 @@ function CoffeCard1 ({img, pris, name, text}){
                 </article>
                 <article className="art2-CC1 di">
                     <img className='img1-art-CC1'src={img2}></img>
-                    <p></p>
+                    <p className='p-art-CC1 di'>Độ cao<br/>700 - 800m</p>
                 </article>
+                <div className='flex'>
+                    <button className="button-CC1">MUA NGAY</button>
+                    <p className='p-CC11'>CHI TIẾT</p>
+                </div>
             </span>
         </article>
     )

@@ -5,7 +5,9 @@ function Tiap3 (){
         <div className="tiap3">
             <p className="p-tiap3">Best Gift For Best Friend</p>
             <h2 className="h2-tiap3">GIFTSET</h2>
-            <Carousel1></Carousel1>
+            <div className="flex">
+                <Carousel1></Carousel1>
+            </div>
         </div>
     )
 }
