@@ -299,14 +299,87 @@
 }
 
 .tiap4{
-  background-color: #FFFFFF;
+  background:linear-gradient(
+    to right ,
+    #FFFFFF 80%,
+    #415167 80%
+  );
   padding-top: 90px;
-  padding-left: 120px;
+  padding-left: 220px;
 }
 
 .rit-dg{
   width: 326px;
   background: #415167;
+}
+
+.rit-bg{
+  width: 450px;
+  height: 960px;
+  background: #415167;
+  position: absolute;
+  margin-left: 63%;
+}
+
+.CC2{
+  width: 380px;
+  background-color: #FFFFFF;
+  margin-left: 34px;
+}
+
+.img-CC2{
+  width: 380px;
+}
+
+.pris-CC2{
+  color: #C7A17A;
+  width: 100px;
+  font-size: 20px;
+}
+
+.pris2-CC2{
+  color: #415167;
+  font-size: 14px;
+  margin-top: 25px;
+  text-decoration-line: line-through;
+}
+
+.h2-CC2{
+  color: #232C38;
+  font-size: 24px;
+  margin-top: -15px;
+}
+
+.text-CC2{
+  width: 280px;
+  color: #151D28;
+  font-size: 16px;
+  margin-top: -5px;
+}
+
+.p-tiap4{
+  color: #415167;
+  font-size: 20px;
+  margin-left: 35%;
+}
+
+.h2-tiap4{
+  color: #415167;
+  font-size: 30px;
+  margin-left: 34%;
+  margin-top: -15px;
+}
+
+.foot{
+  padding-top: 20px;
+  padding-left: 42%;
+  padding-bottom: 20px;
+  background-color: #EDF0F5;;
+}
+
+.foot-p{
+  color: #415167;
+  font-size: 16px;
 }
 
 @media (min-width: 1800px) {

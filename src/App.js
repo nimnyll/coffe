@@ -4,6 +4,7 @@ import Tiap1 from './tiap1/tiap1';
 import Tiap2 from './tiap2/tiap2';
 import Tiap3 from './tiap3/tiap3';
 import Tiap4 from './tiap4/tiap4';
+import Foot from './foot/foot';
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -18,6 +19,7 @@ function App() {
       <Tiap2></Tiap2>
       <Tiap3></Tiap3>
       <Tiap4></Tiap4>
+      <Foot></Foot>
     </div>
   );
   
